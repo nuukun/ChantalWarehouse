@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ChantalGoodsLibrary"
+                   namespace="ChantalGoodsLibrary.Domain">
+
+  <class name="ItemCategory">
+    <id name="Id">
+      <generator class="guid"></generator>
+    </id>
+    <property name="ItemCode"></property>
+    <property name="ItemName"></property>
+  </class>
+</hibernate-mapping>
+

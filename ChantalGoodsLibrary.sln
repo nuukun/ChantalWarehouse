@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChantalGoodsLibrary", "ChantalGoodsLibrary\ChantalGoodsLibrary.csproj", "{FBD2C218-DB43-401C-9E30-1EBDF6DB8CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialTest", "InitialTest\InitialTest.csproj", "{07512491-C0D3-488A-91A6-04DD180CA2FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBDE39AC-3DF0-4211-B99F-B84A14EC89E0}"
+	ProjectSection(SolutionItems) = preProject
+		ChantalGoodsLibrary.vsmdi = ChantalGoodsLibrary.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ChantalGoodsLibrary.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD2C218-DB43-401C-9E30-1EBDF6DB8CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD2C218-DB43-401C-9E30-1EBDF6DB8CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD2C218-DB43-401C-9E30-1EBDF6DB8CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD2C218-DB43-401C-9E30-1EBDF6DB8CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07512491-C0D3-488A-91A6-04DD180CA2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07512491-C0D3-488A-91A6-04DD180CA2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07512491-C0D3-488A-91A6-04DD180CA2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07512491-C0D3-488A-91A6-04DD180CA2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
