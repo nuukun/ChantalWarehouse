@@ -8,7 +8,7 @@ namespace ChantalGoodsLibrary.Domain
 
     public class ItemCategory
     {
-        public virtual Guid Id { get; set; }
+        public virtual int Id { get; set; }
         public virtual string ItemCode { get; set; }
         public virtual string ItemName { get; set; }
     }

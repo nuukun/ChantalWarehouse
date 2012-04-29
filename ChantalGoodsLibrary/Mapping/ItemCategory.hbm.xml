@@ -3,9 +3,9 @@
                    assembly="ChantalGoodsLibrary"
                    namespace="ChantalGoodsLibrary.Domain">
 
-  <class name="ItemCategory">
+  <class name="ChantalGoodsLibrary.Domain.ItemCategory">
     <id name="Id">
-      <generator class="guid"></generator>
+      <generator class="native"></generator>
     </id>
     <property name="ItemCode"></property>
     <property name="ItemName"></property>
